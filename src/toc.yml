@@ -1,0 +1,7 @@
+- name: Manual
+  href: manual/
+- name: API Reference
+  href: api/
+- name: Changelog
+  href: changelogs/
+  homepage: changelogs/odos_current_changelog.md

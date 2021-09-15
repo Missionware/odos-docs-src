@@ -1,0 +1,1 @@
+"%~dp0\versionize\Versionize.exe" -w "%~dp0\.."  --version-tag-prefix odos-v --changelog-only  --changelog-file ..\docs\changelogs\odos_current_changelog.md --skip-dirty
