@@ -2,20 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/saintedlama/versionize) for commit guidelines.
 
-<a name="1_4_0"></a>
-## <a id="1_4_0"></a> 1.4.0 (2021-9-14)
+<a name="3_0_5"></a>
+## <a id="3_0_5"></a> [3.0.5](https://www.github.com/Missionware//releases/tag/v3.0.5) (2021-9-15)
 
-### <a id="1_4_0-Bug_Fixes"></a> Bug Fixes
+### <a id="3_0_5-Bug_Fixes"></a> Bug Fixes
 
-* **data:** This is a new fix
-* **server:** This is my first conv message
-
-### <a id="1_4_0-Features"></a> Features
-
-* **sdf:** dadsf
-* **server:** This is a new feature
-* **version:** added versionizer
-
-<a name="1_3_0"></a>
-## <a id="1_3_0"></a> 1.3.0 (2021-9-14)
+* **client:** #ODOS-3 Fix for cross-thread exception on win forms startup ([837cb4a](https://www.github.com/Missionware//commit/837cb4a4692d972810a44e8f54acd48d0cdd413a))
 
