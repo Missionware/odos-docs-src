@@ -5,16 +5,18 @@ Introduction
 
 *ODOS* is a universal framework to build enterprise grade applications using .NET.  ODOS is a foundation technology for n-tier applications solving the problem of transfering object state across all nodes in a consistent way. 
 
-*ODOS* also the following cool features:
+*ODOS* has also the following cool features:
 
 * Real time state synchronization between all nodes of the system.
 * Cross-platform support. Can run on Windows, Linux and macOS, experimental support for Android and iOS. Runs on .NET 5.0/6.0, .NET Core, .NET Framework and Mono.
 * Ready-made transactional object server.
-* Declarative Object Modelling. A common object schema is used across servers and clients. 
+* Declarative Object Modelling. Metadata driven design of common object schema used across servers and clients. 
 * Data store independent. Any database can be supported; currently MS SQL Server, Azure SQL, PostgreSQL and binary file are supported.
 * Object Oriented Query Language (OOQL) is a language to effectively querying objects without writing SQL and is consistent across all supported Databases
 
 ![](../images/ODOS-Framework.png)
+
+*Currently there is only experimental support for Mobile and Web Applications 
 
 ## 2. N-Tier Applications & Object Managers
 
@@ -28,7 +30,7 @@ ODOS Server also provides a built-in Object-Relational-Mapping (ORM) component t
 
 ## 4. ODOS Client
 
-ODOS Client, that normally consists of a COM, is the process that is served by an ODOS Server. An ODOS client can be any type of .NET application, such as Desktop, Console, Mobile** or Web application. Additionally any type of .NET GUI technology (Xamarin Forms, WPF, Avalonia, WinForms) is already supported or can be easily supported. 
+ODOS Client, that normally consists of a COM, is the process that is served by an ODOS Server. An ODOS client can be any type of .NET application, such as Desktop, Console, Mobile* or Web application*. Additionally any type of .NET GUI technology (Xamarin Forms, WPF, Avalonia, WinForms) is already supported or can be easily supported. 
 
 An ODOS client can perform transactions upon an ODOS Server as well as retrieve data using OOQL (Object Oriented Query Language). It can also call Remote Procedure Calls (RPC) to other ODOS clients. 
 
@@ -40,4 +42,3 @@ The DataItem are the ODOS aware .NET objects. In other words, the ODOS Object Ma
 
 An ODOS Domain is a named set of DataItem classes. Typically a Domain corresponds to a one Database and provides the transaction boundaries. Multiple Domains can be used by the object managers. The Domains are registered at the application startup. 
 
-**Currently there is only experimental support for Mobile Apps 
