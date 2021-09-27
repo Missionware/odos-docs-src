@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This quick start guide will use the Northwind sample that can be found at the ODOS Sample applications repository <a href="https://github.com/Missionware/odos-samples-public" target="_blank">https://github.com/Missionware/odos-samples-public</a>. The Northwind sample contains a ready made data model (ODOS Domain) of the popular Northwind database, as well as some test data that you can be easily imported. So feel free to download or clone this repo. 
+This quick start guide will use the Northwind sample that can be found at the ODOS Sample applications repository <a href="https://github.com/Missionware/odos-samples-public" target="_blank">https://github.com/Missionware/odos-samples-public</a>. The Northwind sample contains a ready made data model (ODOS Domain) of the popular Northwind database, as well as some test data that can be easily imported. So feel free to download or clone this repo. 
 
 ## Setup
 
