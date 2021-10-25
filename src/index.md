@@ -1,7 +1,10 @@
 ---
+
 title: ODOS - Real Time Object System
 documentType: index
+
 ---
+
 <style type="text/css">
 footer{
   position: relative;

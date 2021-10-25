@@ -3,7 +3,7 @@ Compatibility
 
 ## General Notes
 
-ODOS has been undergone an extensive refactoring and migration from the legacy .NET Framework to .NET Starndard, .NET Core and currently to .NET 5.0/6.0. Generally all of the core lirbaries of ODOS currently multitarget .NET Standard 2.0 and .NET 5.0. 
+ODOS has been undergone an extensive refactoring and migration from the legacy .NET Framework to .NET Standard, .NET Core and currently to .NET 5.0/6.0. Generally all of the core libraries of ODOS currently multitarget .NET Standard 2.0 and .NET 5.0. 
 
 ## Windows
 
@@ -23,7 +23,7 @@ ODOS is probably compatible with MacOS under .NET 5.0 and Mono but no testing ha
 
 ## Android
 
-ODOS is soon to become compatible with Android devices for building Xamarin Forms. Testing and bugfixing is in progress to complete the support and be able to build mobile applications using MAUI, Xamarin Native and Xamarin Forms.
+ODOS is soon to become compatible with Android devices for building Xamarin Forms. Testing and bug-fixing is in progress to complete the support and be able to build mobile applications using MAUI, Xamarin Native and Xamarin Forms.
 
 ## iOS
 

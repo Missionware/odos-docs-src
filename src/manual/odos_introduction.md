@@ -3,7 +3,7 @@ Introduction
 
 ## 1. What is *ODOS*
 
-*ODOS* is a universal framework to build enterprise grade applications using .NET.  ODOS is a foundation technology for n-tier applications solving the problem of transfering object state across all nodes in a consistent way. 
+*ODOS* is a universal framework to build enterprise grade applications using .NET.  ODOS is a foundation technology for n-tier applications solving the problem of transferring object state across all nodes in a consistent way. 
 
 *ODOS* has also the following cool features:
 
@@ -20,7 +20,7 @@ Introduction
 
 ## 2. N-Tier Applications & Object Managers
 
-ODOS provides a simplified programming paradigm to develop N-Tier applications using .NET by providing the components to manage and exchange the Objects' State throughout all tiers. The high level components that are responsible for interprocess communication and object state management are the Object Managers (OM). Two main types of Object Managers exist. The Client Object Manager (COM) and the Server Object Manager (SOM). Server Object Managers are normally hosted on the services processes and Client Object Managers are hosted in Client Applications.   
+ODOS provides a simplified programming paradigm to develop N-Tier applications using .NET by providing the components to manage and exchange the Objects' State throughout all tiers. The high level components that are responsible for inter-process communication and object state management are the Object Managers (OM). Two main types of Object Managers exist. The Client Object Manager (COM) and the Server Object Manager (SOM). Server Object Managers are normally hosted on the services processes and Client Object Managers are hosted in Client Applications.   
 
 ## 3. ODOS Server
 
@@ -41,4 +41,3 @@ The DataItem are the ODOS aware .NET objects. In other words, the ODOS Object Ma
 ## 6. Domains
 
 An ODOS Domain is a named set of DataItem classes. Typically a Domain corresponds to a one Database and provides the transaction boundaries. Multiple Domains can be used by the object managers. The Domains are registered at the application startup. 
-

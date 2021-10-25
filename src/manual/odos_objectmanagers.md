@@ -8,7 +8,7 @@ The SOM is the component that performs the Object Transactions, initially in mem
 
 1. Receive changesets from connected clients
 
-2. Perform in-menory transactions by validating the changeset against the current object state and applying the state in server's cache
+2. Perform in-memory transactions by validating the changeset against the current object state and applying the state in server's cache
 
 3. Write the data to the data store
 
@@ -28,4 +28,4 @@ ODOS also has a built in Binary File data store adapter that can be used for var
 
 ## Client Object Manager (COM)
 
-COM is the compoent that typically lives inside the client applications and exchanges changesets and transactions with the SOM.
+COM is the component that typically lives inside the client applications and exchanges changesets and transactions with the SOM.

@@ -44,7 +44,7 @@
   items:
   - name: Authentication
     href: odos_authentication.md
-  - name: Collections
+  - name: Authorization
     href: odos_authorization.md
 - name: Gateways
   items:
